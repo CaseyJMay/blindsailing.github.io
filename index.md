@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=h2csQ_rdOtE&feature=youtu.be&t=25
 
 Our code, having pieces that have existed for some years before us, will carry an interesting format. Firstly, the pieces of code we chose to improve of the previous project teams (the text to speech and navigation algorithm) are a subset of a lot of existing classes. We are taking these classes that we have "improved" and using them in a visual demonstration, shown in a pygame. Our code will be structured as the diagram below.
 
-![Image 1](SailingDiagram.png "Sailing Course Diagram")
+![Image 2](FlowChart.jpeg "Structural Flowchart")
 
 In general terms, our final product is a simulation that allows the user to control the boat. There will be varying conditions, and the user may input a request to any of a list of variables (distance to buoy, bearing to buoy, etc), which will then be relayed to them through text to speech.
 
