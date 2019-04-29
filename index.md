@@ -3,7 +3,7 @@
 Blind Sailing International has been attempting to create a clean and effective solution for blind individuals who want to sail competitively for some years. For several years now, project teams at Olin have attempted to help this initiative by coding a better solution. This means there is a lot of existing code that is only partially functional. The main goal of our project was to improve the functionality and accessibility of the blind sailing project for anyone who may wish to have access. We decided to accomplish this goal by targeting a few specific features to fix, and then implementing them into a pygame simulation so that people can better understand the tools we have provided, without the hassle of going out and actually attempting to sail. In this way, our blind sailing software can even be used to help teach new users the fundamentals of sailing.
 
 ![Image 1](SailingDiagram.png "Sailing Course Diagram")
-https://www.youtube.com/watch?v=h2csQ_rdOtE&feature=youtu.be&t=25
+
 
 
 ### User Instructions (Important!!)
@@ -63,5 +63,11 @@ Our final product is (will be, still in progress as of right now) a pygame simul
 
 
 ### Project Evolution
+Our project has evolved wildly over time. What began as simply the task "make some existing code work" turned into "take little pieces and make them work, and BETTER" which has since turned into "take some pieces, make them work better, and demonstrate this visually inside a pygame." Sadly this has resulted in a lot of hard work being sidelined. Originally, we spent tons of time talking to the teams from the past two years about how different portions of the code worked. Thankfully, although many of these pieces that we spent tons of time understanding don't need to be edited, understanding the whole structure is key to being able to edit any small piece. For the text to speech specifically, we stayed in contact with a former blind sailing student, once we had narrowed down our vision on perfecting the TTS. We decided to make our largest pivot when we realized that the scope of our project was very difficult to moderate. We were stuck at a point where we either finished all of it off very easily or we never would get it to work at all. Therefore, we decided to take an approach that would more effectively deal with our learning goals, and we moved towards the visual representation of what's happening with the blind sailing system. 
 
 ### Credit Where it's Due
+
+First we'd like to give a big thanks to the people who have done so much work on the blind sailing code, the blind sailing teams from 2017 and 2018, and Alex Morrow. Without them it would have been hard to know where to begin. 
+
+We must also give credit to Blind Sailing International. Blind Sailing International created most of the informative information that we use to explain the concepts, and they created the video from which we took the representation of the blind sailing course. 
+(https://www.youtube.com/watch?v=h2csQ_rdOtE&feature=youtu.be&t=25)
