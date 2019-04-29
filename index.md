@@ -2,7 +2,7 @@
 ### The Big Idea
 Blind Sailing International has been attempting to create a clean and effective solution for blind individuals who want to sail competitively for some years. For several years now, project teams at Olin have attempted to help this initiative by coding a better solution. This means there is a lot of existing code that is only partially functional. The main goal of our project was to improve the functionality and accessibility of the blind sailing project for anyone who may wish to have access. We decided to accomplish this goal by targeting a few specific features to fix, and then implementing them into a pygame simulation so that people can better understand the tools we have provided, without the hassle of going out and actually attempting to sail. In this way, our blind sailing software can even be used to help teach new users the fundamentals of sailing.
 
-![image](/home/cmay/Pictures/SailingDiagram.png)
+![image](files/home/cmay/Pictures/SailingDiagram.png)
 
 
 ### User Instructions
