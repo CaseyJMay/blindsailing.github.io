@@ -20,7 +20,14 @@ In general terms, our final product is a simulation that allows the user to cont
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+def __init__(self):
+        options = {'0':('0 gives all information about the other boat'),
+                   '1':('1 gives location of the nearest buoy'),
+                   '2':('2 gives speed of the boat in meters per second'),
+                   '3':('3 gives bearing of boat'),
+                   '4':('4 gives wind direction')
+                   
+
 
 # Header 1
 ## Header 2
