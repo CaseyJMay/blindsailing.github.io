@@ -6,7 +6,23 @@ Blind Sailing International has been attempting to create a clean and effective 
 https://www.youtube.com/watch?v=h2csQ_rdOtE&feature=youtu.be&t=25
 
 
-### User Instructions
+### User Instructions (Important!!)
+Along with cloning and running our code, there are a few things the user must do in order to gain access to the full functionality of our code. Open up the command terminal in your computer, and paste the following commands into your terminal (using ctr-shift-v). After pasting each one, press enter to run and download the packages.
+
+```
+python3 -m pip install -U pygame --user
+```
+
+```
+pip install pyttsx3
+```
+
+```
+pip install gTTS
+```
+
+Once these are installed, the user should be able to simply clone this repository, run our code, and perform the simulation.
+
 
 ### Implementation
 
@@ -23,6 +39,7 @@ In general terms, our final product is a simulation that allows the user to cont
 A portion of code that highlights the mapping of the key inputs is included below:
 
 ```markdown
+
 # Description of KeyPad Inputs
 
 def __init__(self):
@@ -34,12 +51,17 @@ def __init__(self):
  
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Results
+Our final product is (will be, still in progress as of right now) a pygame simulation of sailing. The simulation contains (or will, again, still in progress) the ability to control a boat on the water. The user must navigate the course while controlling the bearing of the boat and sail direction, and all the while there is a variable wind speed affecting all of these things. The user also has access to a set of tools very similar to those a blind sailor would have while using the blind sailing software Olin has created out on the water. The following is a picture of our current software. 
 
-### Jekyll Themes
+![Image 1](SailingDiagram.png "Sailing Course Diagram")
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CaseyJMay/blindsailing.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Software Impact Statement
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+
+### Project Evolution
+
+### Credit Where it's Due
