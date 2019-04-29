@@ -16,32 +16,18 @@ Our code, having pieces that have existed for some years before us, will carry a
 
 In general terms, our final product is a simulation that allows the user to control the boat. There will be varying conditions, and the user may input a request to any of a list of variables (distance to buoy, bearing to buoy, etc), which will then be relayed to them through text to speech.
 
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+A portion of code that highlights the mapping of the key inputs is included below:
 
 ```markdown
+# Description of KeyPad Inputs
+
 def __init__(self):
         options = {'0':('0 gives all information about the other boat'),
                    '1':('1 gives location of the nearest buoy'),
                    '2':('2 gives speed of the boat in meters per second'),
                    '3':('3 gives bearing of boat'),
                    '4':('4 gives wind direction')
-                   
-
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+ 
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
