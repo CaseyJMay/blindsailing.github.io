@@ -14,6 +14,10 @@ Our code, having pieces that have existed for some years before us, will carry a
 
 ![Image 2](FlowChart.jpeg "Structural Flowchart")
 
+Context as to what each piece of the flowchart means is also provided below:
+
+![Image 3](basic-symbols.jpg "Key for Symbols")
+
 In general terms, our final product is a simulation that allows the user to control the boat. There will be varying conditions, and the user may input a request to any of a list of variables (distance to buoy, bearing to buoy, etc), which will then be relayed to them through text to speech.
 
 A portion of code that highlights the mapping of the key inputs is included below:
