@@ -52,7 +52,7 @@ def __init__(self):
 ```
 
 ### Results
-Our final product is (will be, still in progress as of right now) a pygame simulation of sailing. The simulation contains (or will, again, still in progress) the ability to control a boat on the water. The user must navigate the course while controlling the bearing of the boat and sail direction, and all the while there is a variable wind speed affecting all of these things. The user also has access to a set of tools very similar to those a blind sailor would have while using the blind sailing software Olin has created out on the water. The following is a picture of our current software. 
+Our final product is a pygame simulation of sailing. The simulation contains the ability to control a boat on the water. The user must navigate the course while controlling the bearing of the boat and sail direction, and all the while there is wind blowing, and affecting all of these things. The user also has access to a set of tools very similar to those a blind sailor would have while using the blind sailing software Olin has created out on the water. The following is a capture of our current software. 
 
 ![Image 4](ExampleBoat.png "Pygame Capture")
 
