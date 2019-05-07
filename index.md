@@ -20,7 +20,8 @@ pip install pydub
 pip install ffmpy
 ```
 ```
-pip install ffmpeg
+sudo apt update
+sudo apt install ffmpeg
 ```
 ```
 pip install soundfile
