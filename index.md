@@ -14,7 +14,16 @@ python3 -m pip install -U pygame --user
 ```
 
 ```
-pip install pyttsx3
+pip install pydub
+```
+```
+pip install ffmpy
+```
+```
+pip install ffmpeg
+```
+```
+pip install soundfile
 ```
 
 ```
