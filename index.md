@@ -22,6 +22,7 @@ pip install ffmpy
 ```
 sudo apt update
 sudo apt install ffmpeg
+pip install ffmpeg
 ```
 ```
 pip install soundfile
