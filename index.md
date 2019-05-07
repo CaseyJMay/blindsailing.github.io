@@ -77,9 +77,10 @@ def texty(num):
 ```
 
 ### Results
-Our final product is a pygame simulation of sailing. The simulation contains the ability to control a boat on the water. The user must navigate the course while controlling the bearing of the boat and sail direction, and all the while there is wind blowing, and affecting all of these things. The user also has access to a set of tools very similar to those a blind sailor would have while using the blind sailing software Olin has created out on the water. They can press a number between 1 and 8 to collect various information or adjust various settings. A short description of the meaning of each of the keys can be seen in the code snippet above. The following is a capture of our current software. 
+Our final product is a pygame simulation of sailing. The simulation contains the ability to control a boat on the water. The user must navigate the course while controlling the bearing of the boat and sail direction, and all the while there is wind blowing, and affecting all of these things. The user also has access to a set of tools very similar to those a blind sailor would have while using the blind sailing software Olin has created out on the water. They can press a number between 1 and 8 to collect various information or adjust various settings. A short description of the meaning of each of the keys can be seen in the code snippet above. The following are captures of our current software. 
 
-![Image 4](ExampleBoat.png "Pygame Capture")
+![Image 4](SailingCapture1.png "Pygame Capture")
+![Image 5](SailingCapture1.png "Second Pygame Capture")
 
 
 ### Software Impact Statement
