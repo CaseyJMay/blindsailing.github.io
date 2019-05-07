@@ -52,12 +52,26 @@ A portion of code that highlights the mapping of the key inputs is included belo
 
 # Description of KeyPad Inputs
 
-def __init__(self):
-        options = {'0':('0 gives all information about the other boat'),
-                   '1':('1 gives location of the nearest buoy'),
-                   '2':('2 gives speed of the boat in meters per second'),
-                   '3':('3 gives bearing of boat'),
-                   '4':('4 gives wind direction')
+def texty(num):
+    #assigning what messages the text to speech should say when certain buttons are pressed
+    snippet = ''
+    if num == 1:
+        snippet = get_distance_sentence()
+    elif num == 2:
+        snippet = get_clock_heading_sentence()
+    elif num == 3:
+        snippet = 'The wind is blowing East'
+    elif num == 4:
+        snippet = get_cardinal_direction()
+    elif num == 5:
+        snippet = 'Advancing to next buoy'
+    elif num == 6:
+        snippet = "Slow speech mode"
+    elif num == 7:
+        snippet = "Fast speech mode"
+    elif num == 8:
+        snippet = "Very fast speech mode"
+    return snippet
  
 ```
 
