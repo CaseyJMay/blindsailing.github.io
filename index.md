@@ -4,7 +4,7 @@ Blind Sailing International has been attempting to create a clean and effective 
 
 ![Image 1](SailingDiagram.png "Sailing Course Diagram")
 
-
+This image is a visual representation of an example blind sailing course creating by blind sailing international.
 
 ### User Instructions (Important!!)
 Along with cloning and running our code, there are a few things the user must do in order to gain access to the full functionality of our code. Open up the command terminal in your computer, and paste the following commands into your terminal (using ctr-shift-v). After pasting each one, press enter to run and download the packages.
@@ -32,7 +32,7 @@ pip install soundfile
 pip install gTTS
 ```
 
-Once these are installed, the user should be able to simply clone this repository, run our code, and perform the simulation.
+Once these are installed, the user should be able to simply clone this repository, run blindsail4.py in the command terminal, and perform the simulation. 
 
 
 ### Implementation
@@ -77,13 +77,13 @@ def texty(num):
 ```
 
 ### Results
-Our final product is a pygame simulation of sailing. The simulation contains the ability to control a boat on the water. The user must navigate the course while controlling the bearing of the boat and sail direction, and all the while there is wind blowing, and affecting all of these things. The user also has access to a set of tools very similar to those a blind sailor would have while using the blind sailing software Olin has created out on the water. The following is a capture of our current software. 
+Our final product is a pygame simulation of sailing. The simulation contains the ability to control a boat on the water. The user must navigate the course while controlling the bearing of the boat and sail direction, and all the while there is wind blowing, and affecting all of these things. The user also has access to a set of tools very similar to those a blind sailor would have while using the blind sailing software Olin has created out on the water. They can press a number between 1 and 8 to collect various information or adjust various settings. A short description of the meaning of each of the keys can be seen in the code snippet above. The following is a capture of our current software. 
 
 ![Image 4](ExampleBoat.png "Pygame Capture")
 
 
 ### Software Impact Statement
-We had three main ethical considerations when we started the Blind Sailing Project. First of all we wanted to share the code and let sailors to build their own system and use our code. We didn’t wanted to distribute the device to project ourselves and Olin from any liabilities. In order to achieve this goal, we made our code open source to share what we have done and give the freedom of implementation to the users. Because we are concerned about everyone’s safety, we have also included a statement in our ReadMe that says, “To protect yourself and others, please do not use this software on water if you are not an experienced sailor or accompanied by an instructor. Although our simulation is a good learning exercise, it will not teach you all of the necessary skills to operate a boat. Please seek additional education from certified sailing instructors before going on water. Another ethical consideration we had to be aware of was acknowledging that everyone is not a software developer and may have limited knowledge on python. If we wanted our code to reach many people and have a big impact, we had to put extra effort in coding it in a simple way and formatting it in a user-friendly format. Our last challenge was making a software that would not be against the current blind sailing culture and be welcomed by the existing blind sailors. To have the best results in that, we did not make any assumptions and contacted the Blind Sailing Organization. They told us that they only wanted the software to provide information about the status of the surroundings, but not instructions about how to operate to boat. So we made a software that gives only the distance and bearings to buoys and to other boats. What to do with this information is left to the sailor. 
+We had three main ethical considerations when we started the Blind Sailing Project. First of all we wanted to share the code and let sailors to build their own system and use our code. We didn’t wanted to distribute the device to project ourselves and Olin from any liabilities. In order to achieve this goal, we made our code open source to share what we have done and give the freedom of implementation to the users. Because we are concerned about everyone’s safety, we have also included a statement in our ReadMe that says, “To protect yourself and others, please do not use this software on water if you are not an experienced sailor or accompanied by an instructor. Although our simulation is a good learning exercise, it will not teach you all of the necessary skills to operate a boat. Please seek additional education from certified sailing instructors before going on water." Another ethical consideration we had to be aware of was acknowledging that everyone is not a software developer and may have limited knowledge on python. If we wanted our code to reach many people and have a big impact, we had to put extra effort in coding it in a simple way and formatting it in a user-friendly format. Our last challenge was making a software that would not be against the current blind sailing culture and be welcomed by the existing blind sailors. To have the best results in that, we did not make any assumptions and contacted the Blind Sailing Organization. They told us that they only wanted the software to provide information about the status of the surroundings, but not instructions about how to operate to boat. So we made a software that gives only the distance and bearings to buoys and to other boats. What to do with this information is left to the sailor. 
 
 
 
@@ -97,3 +97,8 @@ First we'd like to give a big thanks to the people who have done so much work on
 
 We must also give credit to Blind Sailing International. Blind Sailing International created most of the informative information that we use to explain the concepts, and they created the video from which we took the representation of the blind sailing course. 
 (https://www.youtube.com/watch?v=h2csQ_rdOtE&feature=youtu.be&t=25)
+
+The following people helped contribute ideas or pieces of code to our project (primarily through stack overflow):
+ederwander, Roland Smith, robert bristow-johnson
+The following sites were integral in our understanding:
+https://www.101computing.net/getting-started-with-pygame/ , https://pypi.org/project/gTTS/,
